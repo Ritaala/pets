@@ -1,0 +1,99 @@
+body {
+    background-color: burlywood;
+}
+
+#first{
+    background-color: rgb(1, 94, 94);
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+   
+}
+
+.banner h1{
+    color: #ffffff;
+    font-family:  "Trirong", serif;
+    font-size: x-large ;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.banner li{
+    display: inline;
+    justify-content: center ;
+    text-align: center ;
+    font-size: x-large ;
+    font-family:  "Trirong", serif;
+}
+
+.banner ul li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+    color: #ffffff;
+    list-style: none;
+    margin-right: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.banner ul li a:hover{
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+
+}
+
+.banner ul li.this a{
+    background-color:#4CAF50;
+    color: rgb(255, 255, 255);
+}
+
+/* -------------------------------------Row-------------------------------------------- */
+
+*{
+    box-sizing: border-box;
+    
+} 
+
+.row::after{
+    content: "";
+    display: table ;
+    clear: both;
+}
+
+.col{
+    width: 50%;
+    float: left;
+}
+
+.row .col> h3{
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #045c05;
+}
+
+.row .col> p{
+    font-size: larger;
+    padding-right: 10px;
+}
+
+.row .col> img{
+    height: 100%;
+    width: 650px;
+    padding-top:  20px;
+
+}
+.row .col> li{
+    font-size: larger;
+    
+}
+
+.row .col> li lh{
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #045c05;
+}

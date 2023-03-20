@@ -1,0 +1,160 @@
+body {
+    margin: auto; 
+    height: 100vh;
+    width: 100%;
+    background-color: burlywood;
+    background-image: url(../images/dogy.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center center;
+    overflow:hidden;
+}
+
+#first{
+    
+    width: 1200px;
+    height: 80px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    float: none;
+}
+
+.banner h1{
+    color: #ffffff;
+    font-family:  "Trirong", serif;
+    font-size: x-large ;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.banner li{
+    display: inline;
+    justify-content: center ;
+    text-align: center ;
+    font-size: x-large ;
+    font-family:  "Trirong", serif;
+}
+
+.banner ul li a{
+    text-decoration: none;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+    color: #ffffff;
+    list-style: none;
+    margin-right: 50px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.banner ul li a:hover{
+    background-color: #4CAF50;
+    color: rgb(255, 255, 255);
+
+}
+
+.banner ul li.this a{
+    background-color:#4CAF50;
+    color: rgb(255, 255, 255);
+}
+
+/* ---------------------title----------------------------- */
+#gallery {
+    display: table;
+    padding-top: 50px;
+    padding-left: 80px;
+}
+
+.title{
+    padding-left: 20px;
+    padding-right: 320px;
+}
+
+.row > .title > h2{
+    font-family:  "Trirong", serif;
+    color: #ffffff;
+    font-weight: bolder;
+    width: 1200px;
+    font-size: xxx-large;
+    
+}
+
+.row > .title > p{
+    font-family: "Trirong", serif;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: larger;
+    
+}
+
+/* ------------------------Gallery----------------------------- */
+
+.row::after{
+    content: "";
+    display:inline;
+    clear: both;  
+}
+
+.column{
+    width: 25%;
+    float: right;
+}
+
+img{
+    width: 50%;
+    height: 150px;
+}
+
+h4{
+    font-family:  "Trirong", serif;
+    font-weight:bolder;
+    color: #4CAF50;
+    text-transform: uppercase;
+
+}
+
+.description {
+    font-family:  "Trirong", serif;
+    font-size: large;
+    font-weight:bolder;
+    color: #4CAF50;
+    width: 98%;
+    line-height: 1.5;
+    
+}
+
+.price{
+    font-size: larger;
+    font-weight:bolder;
+    color:#4CAF50;
+}
+
+/* ----------------------Button------------------------- */
+
+.button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: #4CAF50; 
+    border: 2px solid #4CAF50;
+  }
+  
+  .button1:hover {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
